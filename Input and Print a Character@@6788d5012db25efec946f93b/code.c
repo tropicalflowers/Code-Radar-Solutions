@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main(
-    {
-        char a;
-        scanf("%c",&a);
-        printf("You entered: %c",a);
-        return 0;
-    }
-)
+int main()
+{
+    char str;
+    scanf("%c", str);
+    printf("You entered: %c",str)
+
+    return 0;
+}
