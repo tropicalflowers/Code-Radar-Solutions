@@ -6,10 +6,12 @@ int main()
     scanf("%s", &a);
     if (isalpha(a)) 
     {
-        if (a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U') printf("Vowel");
+        if (a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U') {printf("Vowel");
 
     }
-    else {
+    }
+    else 
+    {
         printf("Consonant");
     }
     else if(isdigit(a))
