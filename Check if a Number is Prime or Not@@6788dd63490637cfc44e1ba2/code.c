@@ -9,7 +9,7 @@ int main() {
         if (a%i==0)  
         {
             b=1;
-            break
+            break;
         }
         
     }
