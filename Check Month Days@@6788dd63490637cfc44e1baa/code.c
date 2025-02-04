@@ -14,6 +14,15 @@ int main() {
     case 12:
     printf("31");
     break;
+    case 2:
+    printf("28");
+    break;
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+    printf("31")
+    break;
    }
     return 0;
 }
