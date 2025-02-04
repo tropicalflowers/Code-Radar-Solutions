@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
+    int a;
+    int b;
     char c;
     int sum;
     int minus;
