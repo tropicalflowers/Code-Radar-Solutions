@@ -3,7 +3,8 @@ int main()
 {
     int a,b;
     char c;
-    int sum=a+b;
+    int sum;;
+    sum=a+b
     scanf("%d %d %c", &a,&b,&c);
     switch(c)
     {
