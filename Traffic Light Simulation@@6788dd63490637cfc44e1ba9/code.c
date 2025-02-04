@@ -1,15 +1,17 @@
 #include <stdio.h>
-int main() {
+int main()
+{
     char a;
-    scanf("%c", &c);
+    scanf ("%a", &a);
     switch(a)
     {
         case 'R':
         printf("Stop");
-        break;
+        breal;
         case 'G':
         printf("Go");
         break;
+
     }
     return 0;
 }
