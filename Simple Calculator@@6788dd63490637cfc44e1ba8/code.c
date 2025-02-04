@@ -12,7 +12,7 @@ int main()
     switch(c)
     {
         case '+':
-        printf("%d", sum)
+        printf("%d", sum);
         break;
     }
 }
