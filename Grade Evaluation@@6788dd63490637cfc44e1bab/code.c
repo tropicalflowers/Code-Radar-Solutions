@@ -20,6 +20,8 @@ int main() {
         case 'F':
         printf("Fail");
         break;
+        deafault:
+        printf("Invalid grade");
 
     }
    return 0;
