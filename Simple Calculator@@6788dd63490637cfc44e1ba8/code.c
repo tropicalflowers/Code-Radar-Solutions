@@ -3,9 +3,10 @@ int main()
 {
     int a,b;
     char c;
-    int sum;
+    
   
     scanf("%d %d %c", &a,&b,&c);
+    int sum;
     sum=a+b;
     switch(c)
     {
