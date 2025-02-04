@@ -4,8 +4,9 @@ int main()
     int a,b;
     char c;
     int sum;
-    sum=a+b;
+  
     scanf("%d %d %c", &a,&b,&c);
+    sum=a+b;
     switch(c)
     {
         case '+':
