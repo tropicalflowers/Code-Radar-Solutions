@@ -4,35 +4,27 @@ int main()
     int a;
     int b;
     char c;
-    int sum;
-    int minus;
-    int multiply;
-    int divide;
+    int d;
   
     scanf("%d %d %c", &a, &b, &c);
-   
-    sum=a+b;
-    minus=a-b;
-    multiply=a*b;
-    divide=a/b;
-
     switch(c)
     {
         case '+':
-        printf("%d", sum);
+        d=a+b;
+        printf("%d", d);
         break;
         case '-':
-        printf("%d", minus);
+        d=a-b;
+        printf("%d", d);
         break;
         case '*':
-        printf("%d", multiply);
+        d=a*b;
+        printf("%d", d);
         break;
         case '/':
-
-        printf("%d", divide);
+        d=a/b;
+        printf("%d", d);
         break;
-       
-
     }
     return 0;
 }
