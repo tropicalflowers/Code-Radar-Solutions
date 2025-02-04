@@ -30,8 +30,7 @@ int main()
 
         printf("%d", divide);
         break;
-        default:
-        printf("error");
+       
 
     }
     return 0;
