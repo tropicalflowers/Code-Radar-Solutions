@@ -6,10 +6,10 @@ int  count=0;
 while ((num & 1)==0)
 {
     count ++;
-        num>>=1;
+    num>>=1;
 
 }
-return 0;
+return count;
 }
 
 int main() {
