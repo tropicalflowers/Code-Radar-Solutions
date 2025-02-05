@@ -2,6 +2,7 @@
     int nbit(int num, int n);
     {
     int mask= ~(1 <<n);
+    return num and mask;
     }
     int main()
     {
