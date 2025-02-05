@@ -24,7 +24,7 @@ int main()
         if (b!=0)
         {d=a/b;
         printf("%d", d);}
-        else {return 0;}
+        else {printf("error");}
         break;
     }
     return 0;
