@@ -16,9 +16,9 @@ int lowestbit(int num) {
     int num;
     scanf("%d", &num);
     int position=lowestbit(num);
-    if (position=-1){
-        return 0;
-    } else{
+    if (position!=-1){
         printf("%d", position);
+    } else{
+        return 0;
     }
     return 0;}
