@@ -5,7 +5,7 @@ int leading(int num) {
     {return 32;}
     in count =0;
     for (int i==sizeof(int)*CHAR_BIT -1; i>=0; i--){
-        if (num &(1 <<i)==0)
+        if (num &(1 <<i))==0
         {
             count ++;}
             else
