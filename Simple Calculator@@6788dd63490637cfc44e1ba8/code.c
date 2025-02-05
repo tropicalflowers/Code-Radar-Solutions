@@ -21,8 +21,10 @@ int main()
         printf("%d", d);
         break;
         case '/':
-        d=a/b;
-        printf("%d", d);
+        if (b!=0)
+        {d=a/b;
+        printf("%d", d);}
+        else {return 0;}
         break;
     }
     return 0;
