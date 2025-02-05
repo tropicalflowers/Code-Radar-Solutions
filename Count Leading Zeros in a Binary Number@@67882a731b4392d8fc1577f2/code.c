@@ -13,11 +13,10 @@ int leading(int num) {
     }
 return count;
 }
-
 int main() {
     int num;
-    scanf("%d", num);
+    scanf("%d", &num);
     int result=leading(num);
-    printf("%d", num);
+    printf("%d", result);
     return 0;
 }
