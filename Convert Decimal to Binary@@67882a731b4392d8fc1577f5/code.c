@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
     
-    int a;
+    int num;
     int binary[32];
     int i=0;
-    scanf("%d", &a);
-    if (a==0)
+    scanf("%d", &num);
+    if (num==0)
     {
         printf("0");
         return 0;
