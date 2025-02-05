@@ -6,8 +6,8 @@ int nbit(int num, int n)
 int main() {
     int num,n;
     scanf("%d %d", &num, &n);
-    int resuly=nbit(num,n);
-    printf("%d", n,result);
+    int result=nbit(num,n);
+    printf("%d", result);
     
     return 0;
 }
