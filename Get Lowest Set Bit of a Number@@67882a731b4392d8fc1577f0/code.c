@@ -4,7 +4,14 @@ int lowestbit(int num) {
     if(num==0){
         return  -1;
     }
-    return __builtin_ffs(num) - 1;
+    int position=0;
+    while((num & 1)==0)
+    {
+        num>>=1;
+        position ++;
+
+    }
+    return position;
   
 }
 
@@ -13,9 +20,9 @@ int main() {
     scanf("%d", &num);
     int position=lowestbit(num);
     if (position=-1){
-        printf("0");
+        break;
     } else{
-        return 1;
+        printf("%d", position);
     }
     return 0;
 }
