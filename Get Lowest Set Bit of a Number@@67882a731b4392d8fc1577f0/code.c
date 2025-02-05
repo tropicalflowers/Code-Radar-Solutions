@@ -12,17 +12,13 @@ int lowestbit(int num) {
 
     }
     return position;
-  
-}
-
-int main() {
+  }int main() {
     int num;
     scanf("%d", &num);
     int position=lowestbit(num);
     if (position=-1){
-        break;
+        return 0;
     } else{
         printf("%d", position);
     }
-    return 0;
-}
+    return 0;}
