@@ -13,7 +13,7 @@ int main() {
     scanf("%d", &num);
     int position=lowestbit(num);
     if (position=-1){
-        return 0;
+        printf("0");
     } else{
         return 1;
     }
