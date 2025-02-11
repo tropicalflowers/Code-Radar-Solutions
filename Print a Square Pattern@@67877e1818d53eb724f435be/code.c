@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int a, i, j, k;
+    int a, i, j;
+    // Prompt the user to enter the side length of the square
+    
     scanf("%d", &a);
+    
+    // Loop through each row
     for (i = 1; i <= a; i++) {
-        // Print spaces to center-align the pyramid
-        for (j = i; j < a; j++) {
-            printf(" ");
+        // Loop through each column in the row
+        for (j = 1; j <= a; j++) {
+            printf("* ");
         }
-        // Print stars to form the pyramid
-        for (k = 1; k <= (2 * i - 1); k++) {
-            printf("*");
-        }
-        // Move to the next line after each row
+        // Move to the next line after printing each row
         printf("\n");
     }
     return 0;
