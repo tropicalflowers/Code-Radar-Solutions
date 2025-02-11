@@ -4,7 +4,7 @@ int main() {
     int i, j, N;
     
     // Number of rows for the inverted triangle
-    printf("Enter the number of rows: ");
+    
     scanf("%d", &N);
     
     // Outer loop for each row
