@@ -11,7 +11,7 @@ int main() {
     for (i = N; i >= 1; i--) {
         // Inner loop to print stars
         for (j = 1; j <= i; j++) {
-            printf("* *");
+            printf("* ");
         }
         // Move to the next line after each row
         printf("\n");
