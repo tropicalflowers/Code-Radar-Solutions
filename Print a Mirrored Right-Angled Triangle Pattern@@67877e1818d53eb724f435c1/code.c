@@ -10,11 +10,11 @@ int main() {
     for (i = 0; i < a; i++) {
         // Inner loop to print spaces
         for (j = 0; j < i; j++) {
-            printf(" ");
+            printf("*");
         }
         // Inner loop to print stars
         for (j = 0; j < a - i; j++) {
-            printf("*");
+            printf(" ");
         }
         // Move to the next line after each row
         printf("\n");
