@@ -12,6 +12,7 @@ int main()
             printf("%d", b);
             b++;
         }
-        printf("\n");
+       
     }
+     printf("\n");
 }
