@@ -1,32 +1,30 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int a;
+    printf("Enter the number of rows for the diamond: ");
     scanf("%d", &a);
-    for (int i=1; i<=a; i++)
-    {
-        for(int j=1; j<n; j++)
-        {
-            printf(" ");
-        }
-        for (int k=1; k<=(2*i-1); k++)
-        {
-            printf("*");
-        }
-        printf("\n");
-    }
-    for (int i=n-1; i>=1; i--)
-    {
-        for(int j=a; j>i; j--)
-        {
 
+    // Upper half of the diamond
+    for (int i = 1; i <= a; i++) {
+        for (int j = 1; j <= a - i; j++) { // Print spaces
             printf(" ");
         }
-        for(int k=a; k<=(2*i-1); k++)
-        {
+        for (int k = 1; k <= (2 * i - 1); k++) { // Print stars
             printf("*");
         }
         printf("\n");
     }
+
+    // Lower half of the diamond
+    for (int i = a - 1; i >= 1; i--) {
+        for (int j = 1; j <= a - i; j++) { // Print spaces
+            printf(" ");
+        }
+        for (int k = 1; k <= (2 * i - 1); k++) { // Print stars
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
