@@ -2,17 +2,19 @@
 int main()
 {
     int a;
-    int b=1;
+    
     scanf("%d", &a);
-    for(int i; i<=a; i++)
+    for(int i=1; i<=a; i++)
     {
+        int b=1;
         while(b<=i)
         {
 
             printf("%d", b);
             b++;
         }
+        printf("\n");
        
     }
-     printf("\n");
+     
 }
