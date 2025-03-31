@@ -1,53 +1,48 @@
 #include <stdio.h>
-void printArray(arr[n], n);
-{
 
+// Function to print an array
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 }
-void bubbleSort(arr[n],n);
-{
-int a= arr[n];
-int size;
-size=sizeof arr()/ sizeof arr[0];
-int temp;
-{
 
-    for(n=0; n<size; n++)
-    {
-        if (arr[n]<arr[n+1])
-        {
-            temp=arr[n+1];
-            arr[n]=arr[n+1];
-            arr[n+1]=arr[n];
+// Function to perform Bubble Sort
+void bubbleSort(int arr[], int n) {
+    int temp;
+    for (int i = 0; i < n - 1; i++) { // Outer loop for passes
+        for (int j = 0; j < n - i - 1; j++) { // Inner loop for swapping
+            if (arr[j] > arr[j + 1]) { // Swap if the current element is greater than the next
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
         }
     }
 }
-return 0;
-}
 
-void printArray(arr, n);
-{
-int a= arr[n];
-int size;
-size=sizeof arr()/ sizeof arr[0];
-for(n=0; n<size; n++)
-{
-
-    printf("%d", arr[n]);
-    
-}
-return 0;
-}
-
-int main()
-{
+int main() {
     int n;
+
+    // Input the number of elements
+    printf("Enter number of elements: ");
     scanf("%d", &n);
+
     int arr[n];
-    for (int i=0; i<n; i++)
-    {
+
+    // Input array elements
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+
+    // Sort the array
     bubbleSort(arr, n);
+
+    // Print sorted array
+    printf("Sorted array: ");
     printArray(arr, n);
+
     return 0;
 }
